@@ -1,0 +1,65 @@
+
+#main {
+  margin: 20px 5px;
+  background-color: rgba(129, 105, 105, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  border: solid red;
+
+}
+#title {
+  margin: 0px auto;
+  border: solid;
+  border-color: yellow;
+
+
+}
+figure {
+  background-color: white;
+  margin: 0px 10px;
+  border: solid;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+ margin: auto;
+
+}
+#tribute-info {
+  text-align:left;
+  border: solid;
+  border-color: blue;
+}
+#headline {
+  width: 50%;
+  margin-left: 29%;
+  border: solid;
+  text-align: center;
+}
+section ul {
+/*  position: relative; */
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+
+}
+
+blockquote {
+  margin-left: 20%;
+  border: solid;
+}
+ cite {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: solid;
+}
+
+#advise {
+  text-align: center;
+}
