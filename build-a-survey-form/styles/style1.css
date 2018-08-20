@@ -1,0 +1,29 @@
+html {
+  background-color: rgb(196, 252, 234);
+  border: solid red 1px;
+  text-align: center;
+  font-size: 20px;
+}
+
+form {
+  background-color: white;
+  border: solid  white 1px;
+  border-radius: 5px;
+  width: 60%;
+  margin: 0 auto;
+}
+#description{
+margin: 20px auto;
+}
+label {
+  border: solid 1px;
+
+}
+#user-information{
+  border: solid 1px;
+  margin: 0 auto;
+}
+.user-information{
+  height: 30px;
+  width: 300px;
+}
