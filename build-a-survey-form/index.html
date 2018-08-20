@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Build a Survey Form</title>
+    <meta name="description" content="this page is a survey form">
+    <meta name="author" content="Harrison">
+    <link rel="stylesheet" type="text/css" href="styles/style1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id="main">
+      <h1 id="title">Survey Form</h1>
+      <div class="form">
+        <form id="survey-form" action="/submit" method="post">
+          <p id="description">Let us know how we can improve freeCodeCamp</p>
+          <div id="user-information">
+            <label id="name-label" for="name"><sup>*</sup> Name <input id="name" class="user-information" type="text" name="name" placeholder="Enter your name" required></label>
+            <br>
+            <label id="email-label" for="email"><sup>*</sup> Email <input id="email" class="user-information" type="email" name="email" placeholder="Enter you email" required></label>
+            <br>
+            <label id="number-label" for="number"><sup>*</sup> Age <input id="number" class="user-information" type="number" name="age" min="6" max="100" placeholder="Age" required></label>
+          </div>
+
+          <label for="dropdown">Which option best describes your current role?
+            <select id="dropdown" name="">
+              <option value="Student">Student</option>
+              <option value="Fulltime Job">Fulltime Job</option>
+              <option value="Fulltime Learner">Fulltime Learner</option>
+              <option value="Prefer not to say">Prefer not to say</option>
+              <option value="Other">Other</option>
+            </select>
+            </label>
+            <br>
+            <label for="[object Object]"><sup>*</sup> How likely is that you would recommend freeCodeCamp to a friend?
+              <br>
+              <label for="recommend"><input type="radio" name="recommend" value="Definitely">Definitely</label>
+                <br>
+              <label for="recommend"><input type="radio" name="recommend" value="Maybe">Maybe</label>
+                <br>
+              <label for="recommend"><input type="radio" name="recommend" value="Not-sure">Not sure</label>
+            </label>
+            <br>
+            <label for="[object Object]">What do you like most in FCC:
+              <select class="" name="">
+                <option name="what-do-you-like" value="Chalenges">Chalenges</option>
+                <option name="what-do-you-like" value="Project">Project</option>
+                <option name="what-do-you-like" value="Community">Community</option>
+                <option name="what-do-you-like" value="Open-source">Open source</option>
+              </select>
+            </label>
+            <br>
+
+            <label for="[object Object]">Things that should be improved in the future
+(Check all that apply):<br>
+
+              <label for="[object Object]"><input type="checkbox" name="thing-should-improve" value="front-end-projects">Front-end Projects</label><br>
+
+              <label for="[object Object]"><input type="checkbox" name="thing-should-improve" value="data-visualizaion">Data Visualization</label><br>
+
+              <label for="[object Object]"><input type="checkbox" name="thing-should-improve" value="challenges">Challenges</label><br>
+
+              <label for="[object Object]"><input type="checkbox" name="thing-should-improve" value="open-source-community">Open Source Community</label><br>
+
+              <label for="[object Object]"><input type="checkbox" name="thing-should-improve" value="gitte-help-rooms">Gitter help rooms</label><br>
+
+              <label for="[object Object]"><input type="checkbox" name="thing-should-improve" value="video">Videos</label><br>
+
+              <label for="[object Object]"><input type="checkbox" name="thing-should-improve" value="city-meetups">City Meetups</label><br>
+
+              <label for="[object Object]"><input type="checkbox" name="thing-should-improve" value="wiki">wiki</label><br>
+
+              <label for="[object Object]"><input type="checkbox" name="thing-should-improve" value="forum">Forum</label><br>
+
+              <label for="[object Object]"><input type="checkbox" name="thing-should-improve" value="additional-courses">Additional Courses</label><br>
+            </label>
+            <br>
+            <label for="[object Object]">Any Comments or Suggestions?
+              <br>
+              <textarea name="comment-suggestion" rows="8" cols="80" placeholder="Enter your comment here..."></textarea>
+
+            </label>
+
+
+
+
+
+
+
+
+          <br>
+          <input id="submit" type="submit" name="submit" value="submit">
+        </form>
+      </div>
+
+    </div>
+  </body>
+</html>
