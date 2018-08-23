@@ -90,6 +90,7 @@ textarea {
    margin: 0 auto;
   }
   .row {
+    width: 100%;
    font-size: 18px;
    margin-left: 3%;
    margin-right: auto;
