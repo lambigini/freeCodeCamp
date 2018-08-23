@@ -30,7 +30,7 @@
               <div class="row">
                 <div class="left-row"><label for="dropdown">Which option best describes your current role?</label></div>
                 <div class="right-row">
-                  <select id="dropdown" name="current-role" >
+                  <select id="dropdown" class="dropdown1" name="current-role" >
                     <option value="" selected>Select an option</option>
                     <option value="Student">Student</option>
                     <option value="Fulltime-Job">Fulltime Job</option>
@@ -42,18 +42,19 @@
                 <!-- ------------------------------- -->
               </div>
               <div class="row">
-                <div class="left-row"><sup>*</sup> How likely is that you would recommend freeCodeCamp to a friend?</div>
+                <div class="left-row align-top"><sup>*</sup> How likely is that you would recommend freeCodeCamp to a friend?</div>
                 <div id="current-role-div" class="right-row">
-                  <label for="recommend"><input type="radio" name="recommend" value="Definitely" required>Definitely</label>
-                  <label for="recommend"><input type="radio" name="recommend" value="Maybe" required>Maybe</label>
+                  <label for="recommend"><input type="radio" name="recommend" value="Definitely" required>Definitely</label><br>
+                  <label for="recommend"><input type="radio" name="recommend" value="Maybe" required>Maybe</label><br>
                   <label for="recommend"><input type="radio" name="recommend" value="Not-sure" required>Not sure</label>
+
                 </div>
               </div>
               <!-- ------------------------------- -->
               <div class="row">
                 <div class="left-row"><label for="dropdown-like-most"></label> <sup>*</sup> What do you like most in FCC:</div>
                 <div class="right-row">
-                  <select id="dropdown-like-most"class="" name="">
+                  <select id="dropdown-like-most"class="dropdown1"
                     <option value="" selected>Select an option</option>
                     <option name="what-do-you-like" value="Chalenges">Chalenges</option>
                     <option name="what-do-you-like" value="project">Project</option>
@@ -65,7 +66,7 @@
               <!-- ------------------------------- -->
 
               <div class="row">
-                <div class="left-row">Things that should be improved in the future
+                <div class="left-row align-top">Things that should be improved in the future
 (Check all that apply):</div>
                 <div class="right-row">
                   <label for="[object Object]"><input type="checkbox" name="thing-should-improve" value="front-end-projects">Front-end Projects</label><br>
