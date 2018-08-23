@@ -15,22 +15,22 @@
         <form id="survey-form" action="/submit" method="post">
           <p id="description">Let us know how we can improve freeCodeCamp</p>
               <div class="row">
-                <div class="left-row"><sup>*</sup> Name</div>
-                <div class="right-row"><label id="name-label" for="name"><input id="name"  type="text" name="name" placeholder="Enter your name" required></label></div>
+                <div class="left-row"><label id="name-label"  for="name" ><sup>*</sup> Name</label></div>
+                <div class="right-row"><input id="name"  type="text" name="name" placeholder="Enter your name" required></div>
               </div>
               <div class="row">
-                <div class="left-row"><sup>*</sup> Email</div>
-                <div class="right-row"><label id="email-label" for="name"><input id="email" type="text" name="name" placeholder="Enter your email" required></label></div>
+                <div class="left-row"><label id="email-label" for="email" ><sup>*</sup> Email</label></div>
+                <div class="right-row"><input id="email"   type="email" name="name" placeholder="Enter your email" required></div>
               </div>
               <div class="row">
-                <div class="left-row"><sup>*</sup> Age</div>
-                <div class="right-row"><label id="age-label" for="name"><input id="number" type="text" name="name" placeholder="Age" min="1" max="100" required></label></div>
+                <div class="left-row"><label id="number-label" for="number" ><sup>*</sup> Age</label></div>
+                <div class="right-row"><input id="number"   type="number" name="name" placeholder="Age" min="1" max="100" required></div>
               </div>
                 <!-- ------------------------------- -->
               <div class="row">
                 <div class="left-row"><label for="dropdown">Which option best describes your current role?</label></div>
                 <div class="right-row">
-                  <select id="dropdown" name="current-role" >
+                  <select id="dropdown" class="dropdown1" name="current-role" >
                     <option value="" selected>Select an option</option>
                     <option value="Student">Student</option>
                     <option value="Fulltime-Job">Fulltime Job</option>
@@ -42,18 +42,19 @@
                 <!-- ------------------------------- -->
               </div>
               <div class="row">
-                <div class="left-row"><sup>*</sup> How likely is that you would recommend freeCodeCamp to a friend?</div>
+                <div class="left-row align-top"><sup>*</sup> How likely is that you would recommend freeCodeCamp to a friend?</div>
                 <div id="current-role-div" class="right-row">
-                  <label for="recommend"><input type="radio" name="recommend" value="Definitely" required>Definitely</label>
-                  <label for="recommend"><input type="radio" name="recommend" value="Maybe" required>Maybe</label>
+                  <label for="recommend"><input type="radio" name="recommend" value="Definitely" required>Definitely</label><br>
+                  <label for="recommend"><input type="radio" name="recommend" value="Maybe" required>Maybe</label><br>
                   <label for="recommend"><input type="radio" name="recommend" value="Not-sure" required>Not sure</label>
+
                 </div>
               </div>
               <!-- ------------------------------- -->
               <div class="row">
                 <div class="left-row"><label for="dropdown-like-most"></label> <sup>*</sup> What do you like most in FCC:</div>
                 <div class="right-row">
-                  <select id="dropdown-like-most"class="" name="">
+                  <select id="dropdown-like-most"class="dropdown1"
                     <option value="" selected>Select an option</option>
                     <option name="what-do-you-like" value="Chalenges">Chalenges</option>
                     <option name="what-do-you-like" value="project">Project</option>
@@ -65,7 +66,7 @@
               <!-- ------------------------------- -->
 
               <div class="row">
-                <div class="left-row">Things that should be improved in the future
+                <div class="left-row align-top">Things that should be improved in the future
 (Check all that apply):</div>
                 <div class="right-row">
                   <label for="[object Object]"><input type="checkbox" name="thing-should-improve" value="front-end-projects">Front-end Projects</label><br>
