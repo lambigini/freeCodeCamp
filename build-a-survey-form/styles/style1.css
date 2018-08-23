@@ -90,6 +90,7 @@ textarea {
    margin: 0 auto;
   }
   .row {
+    width: 100%;
    font-size: 18px;
    margin-left: 3%;
    margin-right: auto;
@@ -98,7 +99,7 @@ textarea {
   .left-row {
    width: 40%;
    height: 100%;
-   text-align: right;
+   text-align: left;
   }
   .right-row {
    width: 100%;
